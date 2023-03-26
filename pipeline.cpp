@@ -16,7 +16,7 @@ int32_t  main(){
 			pipes=(mid*k)-(mid-1);
 		if(pipes>=n){
 			ans=mid;
-			high=mid-1;
+			high=mid-1; 
 		}
 		else{
 			low=mid+1; 

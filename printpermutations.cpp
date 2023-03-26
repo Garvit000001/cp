@@ -18,7 +18,6 @@ void printPermutations(int ind,string s,map<int,int> &mpp){
             mpp[i]=1;
             s+=str[i];//str string h jiska permutation karna h
             printPermutations(ind+1,s,mpp);
-            
             mpp[i]=0;
             s.pop_back();
 
